@@ -1,10 +1,10 @@
-// ignore_for_file: prefer_const_constructors, camel_case_types
+// ignore_for_file: prefer_const_constructors, camel_case_types, sized_box_for_whitespace, annotate_overrides
 
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:phonepe/view/carouselpage/carousel_page1.dart';
-import 'package:phonepe/view/homepage/home_screen.dart';
+
+import 'package:phonepe/view/bottom_navifationbar/bottom_naivibar.dart';
 
 class Splash_screen extends StatefulWidget {
   const Splash_screen({super.key});
@@ -20,7 +20,7 @@ class _Splash_screenState extends State<Splash_screen> {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => Home_screen(),
+            builder: (context) => Botton_navigation(),
           ));
     });
     super.initState();

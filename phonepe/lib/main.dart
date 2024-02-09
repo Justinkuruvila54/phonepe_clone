@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:phonepe/view/homepage/home_screen.dart';
+
 import 'package:phonepe/view/splash_screen/splash_scrren.dart';
 
 void main() {
