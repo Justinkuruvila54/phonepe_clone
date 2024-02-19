@@ -336,7 +336,7 @@ class _Home_screenState extends State<Home_screen> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Icon(
-                                        Icons.phone_android_outlined,
+                                      Rechargeandpayicons.rechargeicons[index]["mobile recharge"],
                                         color:
                                             Color.fromARGB(255, 111, 12, 150),
                                         size: 45,
